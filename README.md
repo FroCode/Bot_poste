@@ -1,6 +1,6 @@
 # Algerie Poste Chatbot Hackathon Project
 
-![Chatbot Integration](assets/banner.png)
+![Chatbot Integration](bot.jpg)
 
 ## Overview
 This project is part of a **hackathon submission for Algerie Poste**, aimed at creating an intelligent chatbot solution to improve user interaction and automate customer support services. The solution includes a customizable chatbot widget that can be embedded into any web application and an admin interface for managing bot behavior.
