@@ -45,7 +45,6 @@ Here is the list of team members contributing to this project:
 | **Ahmed**            | Frontend Engineer              | Designing and implementing an intuitive and functional admin interface for effective management.     |
 | **Hadi**             | Frontend Developer             | Creating the chatbot widget using React to ensure easy integration and usability.                   |
 
-> _Note: Replace "Collaborator 1", "Collaborator 2", etc., with the actual names of your team members._
 
 ---
 
