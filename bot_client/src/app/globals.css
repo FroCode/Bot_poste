@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.no-scrollbar {
+    overflow: visible;
+  }
+  .suggestions-container {
+    max-height: 500px; 
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 1;
+  }
+  
+  .suggestions-container.closed {
+    max-height: 0;
+    opacity: 0;
+  }
+  
