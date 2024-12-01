@@ -1,6 +1,6 @@
 # Algerie Poste Chatbot Hackathon Project
 
-![Chatbot Integration](bot.jpg)
+![Chatbot Integration](assets/banner.png)
 
 ## Overview
 This project is part of a **hackathon submission for Algerie Poste**, aimed at creating an intelligent chatbot solution to improve user interaction and automate customer support services. The solution includes a customizable chatbot widget that can be embedded into any web application and an admin interface for managing bot behavior.
@@ -30,6 +30,25 @@ While we’ve implemented several key features, the project is still a work in p
 
 ---
 
+## Collaborators
+
+The list of team members contributing to this project:
+## Collaborators
+
+Here is the list of team members contributing to this project:
+
+| Name                 | Role                           | Responsibilities                                                                                     |
+|----------------------|--------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Maamar Haddouche** | Team Leader & Cloud Developer  | Designing the platform architecture, overseeing project tasks and timelines, supporting team members with technical issues, implementing FastAPI and API integrations, setting up CI/CD pipelines, and managing cloud infrastructure. |
+| **Mohammed Hadbi**   | Frontend Developer             | Crafting the chatbot interface to deliver a seamless and engaging user experience.                  |
+| **Rami Alen**        | Backend Developer              | Developing and maintaining the admin interface, ensuring smooth interaction between the frontend and backend systems. |
+| **Ahmed**            | Frontend Engineer              | Designing and implementing an intuitive and functional admin interface for effective management.     |
+| **Hadi**             | Frontend Developer             | Creating the chatbot widget using React to ensure easy integration and usability.                   |
+
+> _Note: Replace "Collaborator 1", "Collaborator 2", etc., with the actual names of your team members._
+
+---
+
 ## Table of Contents
 1. [Installation](#installation)
 2. [Frontend Integration](#frontend-integration)
@@ -49,4 +68,10 @@ While we’ve implemented several key features, the project is still a work in p
 Before running the project, make sure you have the following installed:
 - **Node.js** (for frontend React app)
 - **Python 3.x** (for backend FastAPI)
-- **pip** (for Python
+- **pip** (for Python package management)
+
+### Backend Setup (FastAPI)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/chatbot-integration.git
+   cd chatbot-integration/backend
