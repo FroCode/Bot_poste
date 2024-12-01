@@ -1,15 +1,34 @@
-# Chatbot Integration with User-Specific Configuration
-![Chatbot Integration](bot.jpg)
+# Algerie Poste Chatbot Hackathon Project
+
+![Chatbot Integration](assets/banner.png)
 
 ## Overview
-This project allows web applications to integrate a chatbot that is personalized for each user. The chatbot's behavior and appearance can be customized via user-specific configurations, which are securely managed through a backend API. This documentation outlines how to embed the chatbot into a website, manage user configurations, and integrate the chatbot widget using an authentication system.
+This project is part of a **hackathon submission for Algerie Poste**, aimed at creating an intelligent chatbot solution to improve user interaction and automate customer support services. The solution includes a customizable chatbot widget that can be embedded into any web application and an admin interface for managing bot behavior.
+
+### **Status:** 🚧 _Currently in Development_  
+While we’ve implemented several key features, the project is still a work in progress. More functionalities and refinements are underway to make the chatbot fully ready for deployment.
+
+---
 
 ## Features
-- **User Authentication**: Supports token-based authentication using JWT/API keys.
-- **User-Specific Bot Configuration**: Store and retrieve bot settings (like theme, greeting messages) for each user.
-- **Frontend React Widget**: A React component that embeds the chatbot into a web application.
-- **Backend API**: A FastAPI backend to manage bot configurations and handle requests securely.
-- **Dynamic Chatbot Experience**: Load and display bot configurations based on the user's credentials.
+
+### Current Features
+- **User Authentication**: Token-based authentication using JWT/API keys for secure access.
+- **Chatbot Widget**: A React-based UI for embedding the chatbot on websites.
+- **Admin Interface**: A web app for managing chatbot settings and configurations.
+- **Dynamic Configuration**: Retrieve and apply user-specific bot settings like themes and greetings.
+- **Backend API**: Powered by FastAPI to handle bot configurations and user data securely.
+
+### Upcoming Features
+- **Multi-language Support**: Arabic, French, and English for Algerie Poste's diverse user base.
+- **Integration with Algerie Poste Systems**: Connect to APIs for postal services, parcel tracking, and account inquiries.
+- **Offline Mode**: Enable the chatbot to function with cached data when the internet is unavailable.
+- **AI-Powered Responses**: Enhance chatbot intelligence using natural language processing (NLP).
+- **Mobile Integration**: Ensure compatibility with mobile apps for seamless user interaction.
+- **Analytics Dashboard**: Provide insights into chatbot usage and user interactions.
+- **Custom Response Templates**: Allow admins to define quick reply templates for common questions.
+
+---
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -22,16 +41,12 @@ This project allows web applications to integrate a chatbot that is personalized
 8. [Contributing](#contributing)
 9. [License](#license)
 
+---
+
 ## Installation
 
 ### Prerequisites
 Before running the project, make sure you have the following installed:
 - **Node.js** (for frontend React app)
 - **Python 3.x** (for backend FastAPI)
-- **pip** (for Python package management)
-
-### Backend Setup (FastAPI)
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/chatbot-integration.git
-   cd chatbot-integration/backend
+- **pip** (for Python
