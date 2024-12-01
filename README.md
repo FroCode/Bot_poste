@@ -41,9 +41,9 @@ Here is the list of team members contributing to this project:
 |----------------------|--------------------------------|-----------------------------------------------------------------------------------------------------|
 | **Maamar Haddouche** | Team Leader & Cloud Developer  | Designing the platform architecture, overseeing project tasks and timelines, supporting team members with technical issues, implementing FastAPI and API integrations, setting up CI/CD pipelines, and managing cloud infrastructure. |
 | **Mohammed Hadbi**   | Frontend Developer             | Crafting the chatbot interface to deliver a seamless and engaging user experience.                  |
-| **Rami Alen**        | Backend Developer              | Developing and maintaining the admin interface, ensuring smooth interaction between the frontend and backend systems. |
+| **Rami Alen**        | Backend Developer              | Developing and maintaining the back end and modeling databases, ensuring smooth interaction between the frontend and backend systems. |
 | **Ahmed**            | Frontend Engineer              | Designing and implementing an intuitive and functional admin interface for effective management.     |
-| **Hadi**             | Frontend Developer             | Creating the chatbot widget using React to ensure easy integration and usability.                   |
+| **Hadil**             | Frontend Developer             | Creating the chatbot widget using React to ensure easy integration and usability.                   |
 
 
 ---
