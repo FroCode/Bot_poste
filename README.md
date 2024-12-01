@@ -1,4 +1,5 @@
 # Chatbot Integration with User-Specific Configuration
+![Chatbot Integration](bot.jpg)
 
 ## Overview
 This project allows web applications to integrate a chatbot that is personalized for each user. The chatbot's behavior and appearance can be customized via user-specific configurations, which are securely managed through a backend API. This documentation outlines how to embed the chatbot into a website, manage user configurations, and integrate the chatbot widget using an authentication system.
